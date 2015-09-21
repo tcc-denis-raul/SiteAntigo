@@ -1,0 +1,386 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+*{margin: 0; padding: 0;}
+
+body{
+font-family: "Times New Roman", Times, serif;
+font-size: 24px;
+background-image: linear-gradient(to left, #ADD8E6, #778899);
+
+}
+
+/*Primeiro menu*/
+.menu{
+	list-style:none; 
+	border:1px solid /*#c0c0c0*/;
+	border-color: #778899; 
+	float:left;
+}
+
+.menu li{
+	position:relative; 
+	float:left; 
+	border-right:1px solid #B0C4DE; 
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block; background-color:#708090;}
+ 
+.menu li a:hover{
+	background:#333; 
+	color:#fff; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff; 
+	background-color:#778899;
+}
+
+.menu li  ul{
+	position:absolute; 
+	top:37px; 
+	left:0;
+	background-color:#778899;
+	display:none;
+}   
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+	border:1px solid #c0c0c0; 
+	display:block; 
+	width:150px;
+}
+
+
+/*segundo menu*/
+.menu2{
+	list-style:none; 
+	border:1px solid #c0c0c0; 
+	float:right; 
+}
+
+.menu2 li{
+	position:relative; 
+	float:left; 
+	border-right:1px solid #c0c0c0; 
+}
+
+.menu2 li a{color:#333; text-decoration:none; padding:5px 10px; display:block; background-color:#708090;}
+ 
+.menu2 li a:hover{
+	background:#333; 
+	color:#fff; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff;
+	background-color:#778899; 
+}
+
+.menu2 li  ul{
+	position:absolute; 
+	top:37px; 
+	left:0;
+	background-color:#778899; 
+	display:none;
+	width: 50%;
+}  
+
+.menu2 li:hover ul, .menu li.over ul{display:block;}
+
+.menu2 li ul a{
+	width: 182%;
+	height:25px;  
+	float:center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #778899;
+	background-color: #708090;
+	color: #800000; 
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+}
+.menu2 li ul li{
+	border:1px solid #c0c0c0; 
+	display:block; 
+	width:150px;
+}
+
+/*opções do menu principal*/
+#cursos{
+	width:688%;
+	height:40px;  
+	float:center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #778899;
+	background-color: #708090;
+	color:#800000; 
+	
+}
+
+#cursos:hover{
+	background:#333; 
+	color:#fff; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff;
+	background-color:#778899; 
+}
+
+#meuscursos{
+	width:146px;
+	height:40px;  
+	float:center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #778899;
+	background-color: #708090;
+	color:#800000;
+}
+
+#meuscursos:hover{
+	background:#333; 
+	color:#fff; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff; 
+	background-color:#778899;
+}
+
+/*
+#opcoes{
+	width:220%;
+	height:40px;  
+	float:center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: 778899;
+	background-color: #708090;
+	color:#800000;
+	font-family: "Times New Roman", Times, serif; 
+}
+
+#opcoes:hover{
+	background:#333; 
+	color:#fff;
+	font-size:22px; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff;
+	background-color:#778899; 
+}*/
+
+
+/*Respostas Formulário*/
+#form4{
+	width: 20%;
+	height:50%;  
+	float:center;
+	margin: 10px 10px 10px 450px;
+	font-family: "Times New Roman", Times, serif; 
+}
+
+/*Respostas Formulário*/
+#form5{
+	width: 250px;
+	height: 40px;  
+	margin: 10px -140px 10px 10px;
+	 
+}
+
+/*Para tabela*/
+.tab{
+	width: 500px;
+	height:40px;
+	margin: 10px 10px 10px 400px;
+	font-family: "Times New Roman", Times, serif;	
+}
+
+
+/*Botoes*/
+.botao input[type=submit]{
+	width: 80px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1px;
+	margin-top: 10px;
+}
+
+
+.botao input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.botao input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.botao input[type=submit]:focus{
+	outline: none;
+}
+
+.botao input[type=image]{
+	width: 40px;
+	height: 30px;
+	background-image: linear-gradient(to left, #ADD8E6, #778899);;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1px;
+	margin-top: 10px;
+}
+
+
+.botao input[type=image]:hover{
+	opacity: 0.8;
+}
+
+.botao input[type=image]:active{
+	opacity: 0.6;
+}
+
+.botao input[type=image]:focus{
+	outline: none;
+}
+
+/*Botoes para melhores cursos*/
+/*Botoes*/
+.botaoR input[type=submit]{
+	width: 240px;
+	height: 30px;
+	background: linear-gradient(to left, #ADD8E6, #778899);
+	border: 0px solid #778899;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1px;
+	margin-top: 10px;
+}
+
+
+.botaoR input[type=submit]:hover{
+	opacity: 0.9;
+	color:white;
+}
+
+.botaoR input[type=submit]:active{
+	opacity: 0.9;
+}
+
+.botaoR input[type=submit]:focus{
+	outline: none;
+}
+
+/*Para manter os form um do lado do outro*/
+.forms {
+    	/*border-width: thick;
+	border-style: inset;
+	border-color: green;*/
+	margin: 10px 1px 10px 450px;
+}
+.forms form {
+    display: inline-block;
+    width: 50px;
+}
+
+.forms2 {
+    	/*border-width: thick;
+	border-style: inset;
+	border-color: green;*/
+	margin: 5px 1px 10px 400px;
+}
+.forms2 form {
+    display: inline-block;
+    width: 150px;
+}
+
+/*Para o titulo na pagina descrição*/
+.titulo{
+	margin: 130px 10px 10px 200px;
+	z-index: 2;
+}
+
+.titulo div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.titulo div span{
+	color: #800000 !important;
+}
+
+.desc{
+	margin: -200px 200px 10px 450px;
+
+}
+
+/*Para o titulo dos questionarios*/
+.pergunta{
+	margin:150px 300px 10px 390px;
+}
+
+.pergunta div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.pergunta div span{
+	color: #800000 !important;
+}
+
+/*Para a frase de resposta dos melhores cursos*/
+.melhores{
+	margin: 100px 10px 10px 390px;
+	z-index: 2;
+}
+
+.melhores div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.melhores div span{
+	color: #800000 !important;
+}
+
+/*Para o popup desconectar*/
+#Ptitulo{
+	color: #800000;
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+}
+#PbotaoDesc{
+	width: 80px;
+	height: 30px;
+	float: center  
+	background-color: #D3D3D3;
+	color: black;
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0 40px 0 70px;
+}
+
+

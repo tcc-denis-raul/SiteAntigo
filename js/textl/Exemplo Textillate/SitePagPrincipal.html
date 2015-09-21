@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+
+
+<head>
+</script>
+  <meta charset="UTF-8">
+    <title>Menu Dropdown Horizontal - Linha de Código</title>
+     <!-- Aqui chamamos o nosso arquivo css externo -->
+    <link rel="stylesheet" type="text/css"  href="pagprincipal.css" />  
+    <link href="animate.css" rel="stylesheet">	
+</head>
+<body>
+
+<script src="jquery-2.1.4.min.js"></script>
+<script src="jquery.lettering.js"></script>
+<script src="jquery.textillate.js"></script>
+	
+<nav>
+
+  <ul class="menu">
+    <li><a href="#">Meus Cursos</a>
+         <ul>
+	      <li><a href="#">Duolingo</a></li>                    
+	</ul>
+    </li>
+	
+    <li><a href="#">Escolher um Curso Ideal</a>
+	<ul>
+	      <li><a href="#">Inglês</a></li>
+	      <li><a href="#">Portugues</a></li>
+	      <li><a href="#">Fotografia</a></li>                    
+	</ul>
+    </li>              
+  </ul>
+
+	 <div class="demo">
+	    <p>Each of this letter will animate.</p>
+	 </div>
+	 
+	 <script> 
+	   $(function () {
+		$('.demo').textillate({
+		    loop: true,
+		    in:{ 
+		        effect: 'rollIn' 
+		    },
+		    out: { 
+		        effect: 'rollOut',
+		        callback: function () 
+		        {
+		            $('.intro_1').hide();
+		        }
+		    }
+		});
+	    })	
+	</script>
+	
+	
+</nav>
+</body>
+</html>
+
+

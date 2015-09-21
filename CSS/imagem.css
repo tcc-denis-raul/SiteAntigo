@@ -1,0 +1,233 @@
+/*"Duolingo"*/
+#id1{
+	width: 200px;
+	height: 200px;
+	margin: 70px 10px 10px -150px;
+}
+#descid1{
+	margin: -240px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Memrise"*/
+#id2{
+	width: 200px;
+	height: 200px;
+	margin: 60px 10px 10px -150px;
+}
+#descid2{
+	margin: -240px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Live Mocha"*/
+#id3{
+	width: 200px;
+	height: 130px;
+	margin: 60px 10px 10px -150px;
+}
+#descid3{
+	margin: -180px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"IBEU"*/
+#id4{
+	width: 300px;
+	height: 164px;
+	margin: 45px 10px 10px -150px;
+}
+#descid4{
+	margin: -180px 200px 10px 400px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Busuu"*/
+#id5{
+	width: 200px;
+	height: 130px;
+	margin: 45px 10px 10px -100px;
+}
+#descid5{
+	margin: -150px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"English Town"*/
+#id6{
+	width: 200px;
+	height: 200px;
+	margin: 70px 10px 10px -200px;
+}
+#descid6{
+	margin: -240px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"English Up"*/
+#id7{
+	width: 150px;
+	height: 191px;
+	margin: 70px 10px 10px -150px;
+}
+#descid7{
+	margin: -240px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"UOL Cursos"*/
+#id8{
+	width: 150px;
+	height: 151px;
+	margin: 70px 10px 10px -160px;
+}
+#descid8{
+	margin: -200px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Cusos 24 horas"*/
+#id9{
+	width: 200px;
+	height: 63px;
+	margin: 70px 10px 10px -230px;
+}
+#descid9{
+	margin: -100px 200px 10px 490px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Prime Cursos"*/
+#id10{
+	width: 200px;
+	height: 100px;
+	margin: 70px 10px 10px -200px;
+}
+#descid10{
+	margin: -140px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+/*"Open English"*/
+#id11{
+	width: 200px;
+	height: 76px;
+	margin: 90px 10px 10px -200px;
+}
+#descid11{
+	margin: -130px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Inglês do Jerry"*/
+#id12{
+	width: 200px;
+	height: 40px;
+	margin: 90px 10px 10px -200px;
+}
+#descid12{
+	margin: -100px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Babbel"*/
+#id13{
+	width: 200px;
+	height: 62px;
+	margin: 70px 10px 10px -100px;
+}
+#descid13{
+	margin: -110px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Iped idiomas"*/
+#id14{
+	width: 200px;
+	height: 113px;
+	margin: 70px 10px 10px -180px;
+}
+#descid14{
+	margin: -150px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Inglês curso"*/
+#id15{
+	width: 200px;
+	height: 97px;
+	margin: 70px 10px 10px -180px;
+}
+#descid15{
+	margin: -150px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Aba English"*/
+#id16{
+	width: 200px;
+	height: 97px;
+	margin: 70px 10px 10px -180px;
+}
+#descid16{
+	margin: -150px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Learn American English"*/
+#id17{
+	width: 200px;
+	height: 200px;
+	margin: 70px 10px 10px -180px;
+}
+#descid17{
+	margin: -220px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"1-Language"*/
+#id18{
+	width: 200px;
+	height: 97px;
+	margin: 70px 10px 10px -180px;
+}
+#descid18{
+	margin: -150px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"USA Learns"*/
+#id19{
+	width: 200px;
+	height: 200px;
+	margin: 70px 10px 10px -180px;
+}
+#descid19{
+	margin: -230px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Petra Lingua"*/
+#id20{
+	width: 200px;
+	height: 81px;
+	margin: 70px 10px 10px -180px;
+}
+#descid20{
+	margin: -130px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+/*"Iped Cursos - Criança"*/
+#id21{
+	width: 200px;
+	height: 113px;
+	margin: 70px 10px 10px -320px;
+}
+#descid21{
+	margin: -150px 200px 10px 450px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
